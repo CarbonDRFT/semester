@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+.content1 {
+  position: relative;
+  margin: 130px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+.content1 .text {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Mulish", sans-serif;
+}
+.content1 .p {
+  font-family: "Mulish", sans-serif;
+  font-size: 2.1875rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.text {
+  font-size: 1.4rem;
+  font-family: "Mulish", sans-serif;
+}
+
+footer {
+  bottom: 0px;
+  min-width: 30rem;
+  width: 100%;
+  background: #646464;
+}
+.main-content {
+  display: flex;
+}
+.main-content .box {
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2 {
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .content {
+  margin: 20px 0 0 0;
+  position: relative;
+  font-family: "Mulish", sans-serif;
+}
+.box .content:before {
+  position: absolute;
+  content: "";
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+.box .content:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 15%;
+  background: rgb(83, 237, 245);
+  top: -10px;
+}
+.left .content p {
+  text-align: justify;
+}
+.left .content .social {
+  margin: 20px 0 0 0;
+}
+.left .content .social a {
+  padding: 0 2px;
+}
+.left .content .social a span {
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  line-height: 40px;
+  text-align: center;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  transition: 0.3s;
+  color: #000;
+}
+.left .content .social a span:hover {
+  background: #40d3dc;
+}
+.center .content .fas {
+  font-size: 1.4rem;
+  background: #fff;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center .content .fas:hover {
+  background: #40d3dc;
+}
+.center .content .text {
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content .phone {
+  margin: 15px 0;
+}
+.right form .text {
+  font-size: 1.4rem;
+  margin-bottom: 2px;
+  color: #000;
+}
+.right form .msg {
+  margin: 1rem 0;
+}
+.right form input,
+.right form .msgForm {
+  width: 100%;
+  font-size: 1.4rem;
+  background: #fff;
+  padding-left: 10px;
+  border: 1px solid #222222;
+}
+.right form input:focus,
+.right form .msgForm:focus {
+  outline-color: #40d3dc;
+}
+.right form input {
+  height: 35px;
+}
+.right form .btn {
+  margin-top: 10px;
+}
+.btn button {
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 0.4rem;
+  outline: none;
+  background: #40d3dc;
+  font-size: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn button:hover {
+  background-color: rgb(83, 237, 245);
+  transform: scaleX(1.05);
+  margin-top: -0.2rem;
+  transition: 0.4s;
+}
+.bottom center {
+  padding: 5px;
+  font-size: 1.2rem;
+  background: #151515;
+}
+.bottom center span {
+  color: #656565;
+}
+.bottom center a {
+  color: #40d3dc;
+  text-decoration: none;
+}
+.bottom center a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,231 @@
+.about__header--section {
+  display: flex;
+  background-image: url(../../img/william-bout-264826.jpg);
+  min-width: 30rem;
+
+  min-height: 30rem;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0.2rem 0.2rem 0.3rem 0.3rem rgb(0, 0, 0, 0.2);
+}
+
+.about__section--overlay {
+  position: relative;
+  width: 100%;
+  min-height: 30rem;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgb(71, 71, 71),
+    rgba(173, 173, 173, 0.6)
+  );
+}
+
+.about__header--text,
+.exhibition__header--txt {
+  position: relative;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  top: 2%;
+  padding: 0 0 5% 0;
+}
+
+.about__h1,
+.exhibition__h1 {
+  font-size: 400%;
+}
+
+.about__header--p,
+.exhibition__header--p {
+  font-size: 2vw;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.text__underline {
+  display: block;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  width: 25vh;
+  height: 0.4rem;
+  background-color: rgb(83, 237, 245);
+}
+
+.aboutus__main--section {
+  display: flex;
+  margin-top: 2%;
+  height: auto;
+
+  width: 80%;
+  min-height: 30rem;
+  background-color: #646464;
+  border-radius: 0 2rem 2rem 0;
+  margin: 5% 0;
+}
+
+.aboutus__txt {
+  flex-basis: 70%;
+  height: 100%;
+  margin: 0 3% 0 2%;
+}
+
+.aboutus__img {
+  flex-basis: 30%;
+
+  background-image: url("https://cdn.lynda.com/course/477449/477449-637364783399393673-16x9.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0 2rem 2rem 0;
+}
+
+.aboutus__accessibility--section {
+  background-color: #646464;
+  height: auto;
+  min-width: 30rem;
+  margin: 5% 0;
+  align-items: center;
+  padding: 1% 0;
+}
+
+.aboutus__accessibility--container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 4% 5%;
+  align-items: center;
+  gap: 2rem;
+}
+
+.aboutus__containers {
+  position: relative;
+
+  background-color: #888888;
+  width: 25vw;
+  height: 27vh;
+
+  border-radius: 2rem;
+}
+
+.about__icons {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 3rem;
+}
+
+.accessbility__txt > h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #40d3dc;
+}
+
+.accessbility__txt > p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.explore__container {
+  margin: 5% 0 3% 0;
+  display: flex;
+
+  width: 80%;
+  min-height: 30rem;
+  height: auto;
+  box-shadow: 1rem 1rem 1rem 1rem rgb(0, 0, 0, 0.2);
+  border-radius: 0rem 2rem 2rem 0;
+}
+
+.forkids__info,
+.research__info {
+  flex-basis: 100%;
+  height: cover;
+  background-color: rgb(109, 109, 109);
+  clip-path: polygon(0 0, 75% 0, 100% 100%, 0 100%);
+  margin-right: -20%;
+}
+
+.forkids__info > h3,
+.research__info > h3 {
+  margin: 2% 0 0 3%;
+}
+
+.forkids__info > p,
+.research__info > p {
+  width: 70%;
+  margin-left: 3%;
+  font-size: 2vh;
+}
+
+.forkids__img,
+.research__img {
+  background-image: url(/img/kids-science.jpeg);
+  flex-basis: 50%;
+
+  height: auto;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 25% 100%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0rem 2rem 2rem 0;
+}
+
+.research__img {
+  background-image: url(/img/science-2799817.jpg);
+}
+
+.teacher__section {
+  display: flex;
+  justify-content: flex-end;
+  min-height: 30rem;
+  height: auto;
+  width: 100%;
+
+  border-radius: 0rem 2rem 2rem 0;
+}
+
+.teacher__container {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  min-height: 30rem;
+  height: auto;
+  box-shadow: 1rem 1rem 1rem 1rem rgb(0, 0, 0, 0.2);
+  border-radius: 2rem 0 0 2rem;
+}
+
+.teacher__info {
+  flex-basis: 70%;
+  height: 100%;
+  background-color: #fae0bd;
+  clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
+  margin-left: -20%;
+
+  font-size: 2rem;
+}
+
+.teacher__info > h3 {
+  margin: 2% 0 0 30%;
+}
+
+.teacher__info > p {
+  margin: 0 3% 0 30%;
+  font-size: 2vh;
+}
+
+.teacher__img {
+  background-image: url(/img/teacher-science.jpg);
+  flex-basis: 50%;
+
+  height: 100%;
+  clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2rem 0 0 2rem;
+}

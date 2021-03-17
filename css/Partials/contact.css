@@ -1,0 +1,138 @@
+.contact__us__section {
+  margin: auto;
+}
+
+.wrapper {
+  box-shadow: 0 0 20px 0 rgba(65, 66, 66, 0.7);
+  margin: 5% auto;
+  width: 70%;
+  max-width: 60rem;
+  min-width: 20rem;
+  background-color: #646464;
+  border-radius: 2rem;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: auto;
+}
+
+.contact > h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: #40d3dc;
+  margin: 3% auto;
+}
+
+label {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #40d3dc;
+}
+
+.contact-form > input {
+  margin-bottom: 5%;
+}
+
+.wrapper > * {
+  padding: 5%;
+}
+
+.contact form button,
+.contact form input,
+.contact form textarea,
+select {
+  width: 100%;
+  padding: 1em;
+  border: solid 1px #40d3dc;
+  border-radius: 4px;
+}
+
+select {
+  margin-bottom: 3%;
+}
+
+.contact form textarea {
+  resize: none;
+}
+
+.contact form button {
+  background: #40d3dc;
+  border: 0;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.contact form button:hover,
+.contact form button:focus {
+  background: #53edf5;
+  color: #ffffff;
+  outline: 0;
+  transition: background-color 2s ease-out;
+}
+
+.getinvolved__section {
+  margin: 5% 0;
+}
+
+.getinvolved__section > h2 {
+  text-align: center;
+  margin: 5% auto 5% auto;
+}
+
+.donation__container {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 2rem;
+  height: 100%;
+  clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+  background-color: #646464;
+  border-radius: 2rem 0 0 2rem;
+}
+
+.donate__items,
+.donate__money {
+  width: 15rem;
+  margin-right: 20%;
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #40d3dc;
+  font-family: "Archivo Narrow", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+
+.donate__money {
+  margin-bottom: 10%;
+}
+
+.donation__container > h3 {
+  margin-right: 26%;
+  margin-bottom: 3rem;
+}
+
+.donate__items:hover,
+.donate__money:hover {
+  background-color: rgb(83, 237, 245);
+  transform: scaleX(1.05);
+  margin-top: -0.2rem;
+  transition: 0.4s;
+}
+
+.internship__img {
+  background-image: url("/img/internship.jpg");
+}
+
+.volunteer__img {
+  background-image: url("/img/volunteers.jpg");
+}

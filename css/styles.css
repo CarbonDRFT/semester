@@ -1,0 +1,57 @@
+html {
+  font-size: 62.5%;
+  margin: 0;
+}
+
+main {
+  background-color: rgb(231, 228, 228);
+  height: auto;
+}
+
+body {
+  background-color: rgb(231, 228, 228);
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Archivo Narrow", sans-serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+  margin: 0 5%;
+  color: #40d3dc;
+}
+
+p {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(83, 237, 245);
+  transform: scaleX(1.05);
+  margin-top: -0.2rem;
+  transition: 0.4s;
+}

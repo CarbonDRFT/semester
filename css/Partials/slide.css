@@ -1,0 +1,195 @@
+.welcome__slider--section {
+  display: flex;
+
+  width: 100%;
+  min-width: 30rem;
+  height: 100%;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.slide__robot--txt {
+  position: relative;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  font-size: 3rem;
+  color: #40d3dc;
+  background-color: white;
+  height: 100%;
+}
+
+.slide__robot--p {
+  font-size: 2vh;
+  margin: 0% 5%;
+}
+
+.slide__robot--img {
+  background-image: url(/img/robot-handshake.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 60%;
+  height: 100%;
+}
+
+.robot__btn {
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 1.3vh 0.25vh;
+  font-size: 1.7vw;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgb(0, 0, 0, 0.3);
+  width: 19vw;
+  text-align: center;
+  margin: 15% auto;
+  border-radius: 1rem;
+}
+
+.robot__btn:hover {
+  background-color: rgb(83, 237, 245);
+  transform: scaleX(1.05);
+  margin-top: 14%;
+  transition: 0.4s;
+}
+
+.slide__kids--img {
+  background-image: url(/img/kids-science.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 60%;
+  height: 100%;
+}
+
+.slide__teacher--img {
+  background-image: url(/img/teacher-science.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 60%;
+  height: 100%;
+}
+
+.slide__news--img {
+  background-image: url("/img/internship.jpg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 60%;
+  height: 100%;
+}
+
+.slider {
+  flex-basis: 60%;
+  height: 60rem;
+  min-width: 30rem;
+
+  overflow: hidden;
+}
+
+.slides {
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide {
+  width: 20%;
+  transition: 2s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+/*css for manual slide navigation*/
+
+.navigation-manual {
+  position: absolute;
+  width: 60%;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn {
+  border: 2px solid #40d3dc;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+
+.manual-btn:hover {
+  background: #40d3dc;
+}
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first {
+  margin-left: -60%;
+}
+
+/*css for automatic navigation*/
+
+.navigation-auto {
+  position: absolute;
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  margin-top: 56rem;
+}
+
+.navigation-auto div {
+  border: 2px solid #40d3dc;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child) {
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+  background: #40d3dc;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+  background: #40d3dc;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+  background: #40d3dc;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+  background: #40d3dc;
+}

@@ -1,0 +1,166 @@
+@media only screen and (max-width: 500px) {
+  html {
+    width: 100%;
+    margin: 0%;
+  }
+
+  #button {
+    margin: 30px;
+  }
+
+  .welcome__section {
+    height: auto;
+  }
+
+  .slide__robot--img,
+  .slide__robot--txt {
+    flex-basis: 100% !important;
+  }
+
+  .slide__robot--img,
+  .slide__kids--img,
+  .slide__teacher--img {
+    order: 1;
+    height: 40% !important;
+    width: 100% !important;
+  }
+
+  .slide__robot--txt {
+    order: 2;
+    height: 60% !important;
+  }
+
+  .robot__btn {
+    margin-top: 5% !important;
+  }
+
+  .about__header--p,
+  .exhibition__header--p {
+    font-size: 4.5vw;
+  }
+
+  .aboutus__accessibility--section {
+    background-color: #646464;
+    height: auto !important;
+  }
+
+  .text__underline {
+    width: 10rem;
+  }
+
+  .aboutus__containers {
+    position: relative;
+
+    background-color: #888888;
+    width: 25rem !important;
+    height: 19vh !important;
+
+    border-radius: 1rem;
+    flex-basis: 100%;
+  }
+
+  .about__icons {
+    font-size: 2rem !important;
+  }
+
+  .accessbility__txt > h3 {
+    text-align: center;
+    font-size: 1.3rem !important;
+    color: #40d3dc;
+  }
+
+  .accessbility__txt > p {
+    font-size: 1rem !important;
+  }
+
+  .visit__container {
+    width: 50%;
+  }
+
+  .visit__container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap: 1rem;
+  }
+
+  .visit__hours,
+  .visit__admission,
+  .visit__location {
+    width: 70%;
+  }
+
+  .visit__txt > h3 {
+    margin: 5% 0;
+    font-size: 5vw;
+  }
+
+  .opening__hour > ul {
+    font-size: 3vw;
+    line-height: 170%;
+  }
+
+  .visit__txt > p {
+    font-size: 3vw;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .news__aeronautics--img {
+    min-height: 20rem;
+  }
+
+  .news__aeronautics--txt > h2 {
+    font-size: 2.4rem;
+  }
+
+  .news__aeronautics--txt > h3 {
+    font-size: 2rem;
+  }
+  .date__p {
+    font-size: 4vw;
+  }
+  .news__aeronautics--txt {
+    border-radius: 0 0 2rem 2rem;
+  }
+
+  .forkids__info > h3,
+  .research__info > h3,
+  .teacher__info > h3 {
+    font-size: 7vw;
+  }
+
+  .forkids__info > p,
+  .research__info > p,
+  .teacher__info > p {
+    font-size: 3vw;
+  }
+
+  .contact > h1 {
+    font-size: 3rem;
+  }
+
+  .highlight__section--h2 {
+    font-size: 8vw;
+  }
+  .highlight__container--btn {
+    width: 9rem;
+    font-size: 1rem;
+  }
+
+  .label__exhibition,
+  .label__special {
+    font-size: 1.4rem;
+  }
+
+  .date {
+    width: 14rem;
+    font-size: 1.2rem;
+  }
+
+  .slide__robot--p {
+    font-size: 1.4vh;
+  }
+}

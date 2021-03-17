@@ -1,0 +1,114 @@
+.exhibition__header--section {
+  display: flex;
+  background-image: url(/img/mammoth-1257288_1920.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  min-height: 30rem;
+}
+
+.exhibition__header--section > h1 {
+  text-align: center;
+}
+
+.exhibition__container--left {
+  margin: 5% 0 3% 0;
+  display: flex;
+  width: 85%;
+  min-height: 30rem;
+
+  height: auto;
+  box-shadow: 1rem 1rem 1rem 1rem rgb(0, 0, 0, 0.2);
+  border-radius: 0rem 2rem 2rem 0;
+}
+
+.exhibition__container--right {
+  display: flex;
+  justify-content: flex-end;
+  width: 85%;
+
+  min-height: 30rem;
+  height: auto;
+  box-shadow: 1rem 1rem 1rem 1rem rgb(0, 0, 0, 0.2);
+  border-radius: 2rem 0 0 2rem;
+}
+
+.exhibition__txt--left {
+  flex-basis: 100%;
+  height: cover;
+  background-color: rgb(109, 109, 109);
+  clip-path: polygon(0 0, 75% 0, 100% 100%, 0 100%);
+  margin-right: -20%;
+}
+
+.exhibition__txt--right {
+  flex-basis: 70%;
+  height: 100%;
+  background-color: bisque;
+  clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
+  margin-left: -20%;
+
+  font-size: 2rem;
+}
+
+.exhibition__txt--left > h3,
+.exhibition__txt--left > p {
+  margin: 2% 25% 0 3%;
+}
+
+.exhibition__txt--right > h3,
+.exhibition__txt--right > p {
+  margin: 2% 2% 0 30%;
+}
+
+.exhibition__img--right {
+  flex-basis: 50%;
+  height: auto;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 25% 100%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0rem 2rem 2rem 0;
+}
+
+.exhibition__img--left {
+  flex-basis: 50%;
+
+  height: 100%;
+  clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2rem 0 0 2rem;
+}
+
+.exhibition__date--left > a {
+  margin-right: 30%;
+}
+
+.exhibition__date--right > p {
+  margin-left: 28%;
+}
+
+.cosmology__img {
+  background-image: url(/img/binoculars-2028304.svg);
+}
+
+.evolution__img {
+  background-image: url(/img/evolution.jpg);
+  background-position-x: 40%;
+  background-position-y: 20%;
+}
+
+.biology__img {
+  background-image: url("/img/biology.jpg");
+}
+
+.robot__img {
+  background-image: url(/img/robot-AI.jpg);
+}
+
+.ecology__img {
+  background-image: url(/img/ecology.jpg);
+}
